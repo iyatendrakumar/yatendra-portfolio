@@ -1163,3 +1163,26 @@ img {
     bottom: -4.5rem;
   }
 }
+
+.footer__social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+
+.footer__social:hover {
+  background-color: #ff5722; /* highlight color on hover */
+  transform: translateY(-3px);
+}
+
+.blog-link i {
+  font-size: 20px;
+}
