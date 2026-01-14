@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yatendra Portfolio</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/newcss.css" />
+    <link rel="stylesheet" href="./assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/newcss.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
@@ -17,7 +17,7 @@
     />
   </head>
 
-  <body oncontextmenu="return false">
+  <body>
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">Yatendra Kumar</a>
@@ -57,7 +57,6 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
-          <!-- Theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
 
           <div class="nav__toggle" id="nav-toggle">
@@ -66,8 +65,8 @@
         </div>
       </nav>
     </header>
-    <!-- main-->
 
+    <!-- main-->
     <main class="main">
       <!--========================= Home =====================-->
 
@@ -91,6 +90,7 @@
                 <i class="uil uil-github-alt home__icon"></i>
               </a>
             </div>
+
             <div class="home__img">
               <svg
                 class="home__blob"
@@ -101,27 +101,29 @@
                 <mask id="mask0" mask-type="alpha">
                   <path
                     d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                 </mask>
+
                 <g mask="url(#mask0)">
                   <path
                     d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                   <image
                     class="home__blob-img"
                     x="-79"
                     y="-46"
-                    xlink:href="assets/img/myimage.jpg"
+                    xlink:href="./assets/img/myimage.jpg"
                   />
                 </g>
               </svg>
             </div>
+
             <div class="home__data">
               <h1 class="home__title">Hi, I'm Yatendra Kumar</h1>
               <h3 class="home__subtitle">A bachelor of Technology Student</h3>
@@ -152,7 +154,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets\img\about.jpg" alt="" class="about__img" />
+          <img src="./assets/img/about.jpg" alt="" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
@@ -182,7 +184,7 @@
             </div>
 
             <div class="about__buttons">
-              <a download="" href="assets\MyCV.pdf" class="button button--flex">
+              <a download href="./assets/MyCV.pdf" class="button button--flex">
                 Download CV<i class="fas fa-download button__icon"></i>
               </a>
             </div>
@@ -288,12 +290,12 @@
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">React | Restful Api</h3>
+                    <h3 class="skills__name">React | RESTful APIs</h3>
                   </div>
                 </div>
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">MySql | PostgreSQL | MongoDB</h3>
+                    <h3 class="skills__name">MySQL | PostgreSQL | MongoDB</h3>
                   </div>
                 </div>
                 <div class="skills__data">
@@ -348,7 +350,7 @@
           <div class="qualification__sections">
             <!--====== Qualification Content 1 ======-->
             <div
-              class="qualification__content qualifiation__active services__content"
+              class="qualification__content qualification__active services__content"
               data-content
               id="education"
             >
@@ -448,7 +450,7 @@
                         </li>
                         <li class="services__modal-service">
                           <i
-                            class="uil uil-check-circle services__moda-icon"
+                            class="uil uil-check-circle services__modal-icon"
                           ></i>
                           <p>Highest scores of My school in 12th</p>
                         </li>
@@ -543,7 +545,7 @@
             <!-- ------------------------portfolio 1-------------------- -->
             <div class="portfolio__content grid swiper-slide">
               <img
-                src="assets/img/stock-trading-platform.png"
+                src="./assets/img/stock-trading-platform.png"
                 class="portfolio__img"
               />
 
@@ -579,7 +581,7 @@
 
             <!-- ------------------------portfolio 2-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/sigmaGPT.png" class="portfolio__img" />
+              <img src="./assets/img/sigmaGPT.png" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">SigmaGPT – AI Chat Application</h3>
@@ -612,7 +614,7 @@
 
             <!-- ------------------------portfolio 3-------------------- -->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/notes.jpg" class="portfolio__img" />
+              <img src="./assets/img/notes.jpg" class="portfolio__img" />
 
               <div class="portfolio__data">
                 <h3 class="portfolio__title">
@@ -644,10 +646,7 @@
               </div>
             </div>
 
-            
             <!-- ---------------------------------------------For YOU Project More   ------------------------------------------------ -->
-
-            
           </div>
 
           <!-- add arrows -->
@@ -729,7 +728,7 @@
 
             <div>
               <a
-                href=" mailto: yatendrakumar18113@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                href="mailto:yatendrakumar18113@gmail.com?subject=Portfolio%20Contact&body=Hello%20Yatendra,"
                 class="button button--flex"
               >
                 Send Message
@@ -766,7 +765,7 @@
             <a
               href="https://www.instagram.com/iadityadhanraaj/"
               class="footer__social"
-              target="__blank"
+              target="_blank"
             >
               <i class="fa-brands fa-instagram"></i>
             </a>
@@ -788,7 +787,7 @@
           </div>
         </div>
 
-        <p class="footer__copy">&#169; Yatendra. All right reserved</p>
+        <p class="footer__copy">&#169; Yatendra. All rights reserved</p>
       </div>
     </footer>
 
