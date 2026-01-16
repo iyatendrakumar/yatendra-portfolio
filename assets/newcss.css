@@ -606,7 +606,7 @@ img {
 }
 
 .qualification__active[data-content] {
-  display: none;
+  display: block;
 }
 
 .qualification__button.qualification__active {
